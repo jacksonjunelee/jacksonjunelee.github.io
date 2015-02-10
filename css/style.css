@@ -33,8 +33,8 @@
 }
 
 .content {
-  float: right;
-  width: 60%;
+  /*float: right;*/
+  /*width: 60%;*/
 }
 
 /*TEXT*/
@@ -44,6 +44,11 @@ h1 {
   color: #D30006;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+#name {
+  font-size: 3rem;
+
 }
 
 h2 {
@@ -59,6 +64,10 @@ h3 {
   font-weight: 700;
   margin-top: 1rem;
   text-transform: uppercase;
+}
+
+h6 {
+  margin-top: .6rem;
 }
 
 p {
@@ -84,10 +93,65 @@ p a:hover {
   color: #8D8D8D;
 }
 
+.portfolio {
+  border-radius: 8px;
+  background-image: url(http://iphone-icon.com/images/bg-body.gif);
+  text-align: center;
+  /*left: 20%;*/
+  /*top: 90%;*/
+  height: 70%;
+  width: 70%;
+  padding-top:1%;
+  padding-bottom:1%;
+  position:static;
+  margin: 2rem auto;
+  box-shadow: 2px 2px 5px #000000;
+  /*padding-right:4px;*/
+}
+
+#C {
+  max-width: 60%;
+}
+
+.button{
+  display: inline-block;
+height: 38px;
+padding: 0 30px;
+color: #555;
+text-align: center;
+font-size: 11px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: .1rem;
+text-transform: uppercase;
+text-decoration: none;
+white-space: nowrap;
+background-color: transparent;
+border-radius: 4px;
+border: 1px solid #bbb;
+cursor: pointer;
+box-sizing: border-box;
+
+}
+
+.u-full-width{
+  width: 40%;
+}
+
 /*NAV & FOOTER*/
 
-nav, footer{
+nav{
   text-align: center;
+  /*border-bottom-width: 3px;*/
+  /*border-bottom-style: solid;*/
+  /*border-bottom-color: black;*/
+}
+
+footer {
+  text-align: center;
+  /*border-top-width: 3px;*/
+  /*border-top-style: solid;*/
+  /*border-top-color: black;*/
 }
 
 .link-list a {
@@ -236,6 +300,12 @@ footer a:hover {
     margin-left: 0;
    }
 
+   .icon{
+
+     width: 2px;
+     height: 2px;
+   }
+
 
    /*End portfolio fix*/
 
@@ -268,5 +338,3 @@ footer a:hover {
   -moz-animation-duration: .4s;
   animation-duration: .4s;
 }
-
-
