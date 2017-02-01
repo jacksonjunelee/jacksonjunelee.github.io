@@ -298,6 +298,10 @@ footer a:hover {
 }
 
 @media (max-width: 700px) {
+  .u-full-width {
+    width: initial;
+    margin-bottom: 3px;
+  }
   .main-image {
     margin: 0 auto;
     max-width: 100%;
