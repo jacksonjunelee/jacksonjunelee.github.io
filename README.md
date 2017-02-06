@@ -1,2 +1,2 @@
-# jjlee5266-github.io
+# jacksonjunelee.github.io
 Personal Website
