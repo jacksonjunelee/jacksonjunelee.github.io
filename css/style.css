@@ -196,7 +196,7 @@ footer {
 
 .link-list li {
   display: inline-block;
-  margin: 2rem 1rem;
+  margin: 2rem 0.9rem;
 }
 
 .nav-link:hover, .active{
@@ -306,6 +306,11 @@ footer a:hover {
     width: initial;
     margin-bottom: 3px;
   }
+
+  .portfolio {
+    width: 100%;
+  }
+  
   .main-image {
     margin: 0 auto;
     max-width: 100%;
