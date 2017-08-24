@@ -310,7 +310,7 @@ footer a:hover {
   .portfolio {
     width: 100%;
   }
-  
+
   .main-image {
     margin: 0 auto;
     max-width: 100%;
@@ -334,21 +334,20 @@ footer a:hover {
     content: ',';
   }
 
-   .skill-list li:last-of-type:after {
+  .skill-list li:last-of-type:after {
     content: '';
-   }
+  }
 
-   .js-scroll-image {
+ .js-scroll-image {
     float: left;
     width: 100%;
     margin-left: 0;
-   }
+  }
 
-   .icon{
-
-     width: 2px;
-     height: 2px;
-   }
+  .icon {
+     width: 48px;
+     height: 48px;
+  }
 
 
    /*End portfolio fix*/
